@@ -17,4 +17,19 @@
         app:layout_constraintTop_toTopOf="parent"
         android:progressDrawable="@drawable/circle"/>
 
+    <Button
+        android:id="@+id/btn_increament"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10+"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="478dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10-"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="551dp" />
+
 </android.support.constraint.ConstraintLayout>
